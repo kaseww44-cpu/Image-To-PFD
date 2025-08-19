@@ -1,7 +1,14 @@
 [image_to_pdf_with_ads.html](https://github.com/user-attachments/files/21854809/image_to_pdf_with_ads.html)
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script>
+  // Disable right-click
+  document.addEventListener('contextmenu', e => e.preventDefault());
+
+  // Disable text selection
+  document.addEventListener('selectstart', e => e.preventDefault());
+</script>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Image to PDF Converter</title>
